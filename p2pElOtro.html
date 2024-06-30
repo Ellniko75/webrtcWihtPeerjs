@@ -34,7 +34,7 @@
         { urls: "stun:stun4.l.google.com:19302" },
         { urls: "stun:stun4.l.google.com:5349" },
       ];
-      let obj = {
+      const obj = {
         peer: new Peer(id, {
           config: { iceServers: iceServers },
         }),
